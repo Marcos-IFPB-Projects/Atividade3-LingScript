@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fabio abrantes</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+    
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="links">
+      <a href="https://discord.gg/mjZvNz9">Comunidade</a>
+      <a href="mailto:fabio.diniz@ifpb.edu.br">Email </a>
+      <a href="tel:+5583999707419">Telefone</a>
+      <a href="https://sites.google.com/view/lingscript20192/atividades?authuser=0">Sobre a atividade</a>
+      <a href="https://classroom.google.com/u/1/w/MTUyOTQyNzAwMzAz/t/all">Conteúdo da disciplina</a>
+    </div>
+  </header>
+
+  <div id="wrapper">
+    <h1>Disciplina Linguagem de Script</h1>    
+  </div>
+
+  <section class="cards">
+
+    <div onclick="PegaId(id);"  class="card"id="curso-online-javascript-programando-na-linguagem-web">
+      <div class="cards_image-container">
+        <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="curso javascript">
+      </div>
+      <div class="card_info">
+        <p>5 módulos</p>
+        <p class="card_price">FREE</p>
+      </div>
+    </div>
+
+    <div onclick="PegaId(id);" class="card"id="curso-online-flutter-gerenciamento-estados-provider">
+      <div class="cards_image-container">
+        <img src="https://cdn.svgporn.com/logos/flutter.svg" alt="curso flutter">
+      </div>
+      <div class="card_info">
+        <p> 8 módulos </p>
+        <p class="card_price">Paid</p>
+      </div>
+    </div>
+
+    <div onclick="PegaId(id);" class="card" id="curso-online-react-native-function-components">
+      <div class="cards_image-container">
+        <img src="https://cdn.svgporn.com/logos/react.svg" alt="curso react native">
+      </div>
+      <div class="card_info">
+        <p> 10 módulos</p>
+        <p class="card_price">Paid</p>
+      </div>
+    </div>
+
+  </section>
+
+  <div id="modal-init" class="modal-overlay">
+    <div id="modal" class="modal">
+      <a onclick="FechaModal();" class="close-modal">
+        <i class="material-icons">close</i>
+      </a>
+      <a onclick="MaximizaModal();" class="maximize-modal">
+        <i class="material-icons">maximize</i>
+      </a>
+      asdasdas
+      <div class="modal-content">
+        <iframe id="iframe" src="https://www.alura.com.br/curso-online-react-native-function-components" frameborder="1"></iframe>
+      </div>
+    </div>
+  </div>
+
+<script src="scripts.js"></script>
+
+
+  <div id="links-footer" class="links">
+    <a href="#" target="_blank">GitHub</a>
+    <a href="#"target="_blank">Instagram</a>
+    <a href="#"target="_blank">Facebook</a>
+  </div>
+
+</body>
+</html>
